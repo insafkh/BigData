@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+#result {
+    display: none;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#graphContainer {
+    height: 400px; /* Fixe la hauteur */
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden; /* Empêche tout débordement */
+}
+.alert {
+    margin-bottom: 10px; /* Réduire l'espace ajouté par les alertes */
+}
